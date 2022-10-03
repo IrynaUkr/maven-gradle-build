@@ -25,7 +25,8 @@ It builds a WAR file if the packaging type is war.
 
 Using --projects you can specify which modules to build.
 You can do this by specifying a comma-delimited list of project selectors. 
-A project selector is a string that is composed of the groupId:artifactId, only :artifactId or the relative path to a module.
+A project selector is a string that is composed of the groupId:artifactId,
+only :artifactId or the relative path to a module.
 
 A module can be selected (default), or excluded from the build. 
 You exclude a module by prefixing the selector with a ! or -.
